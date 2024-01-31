@@ -20,7 +20,7 @@ class Handler implements URLHandler {
                     message = message + parse[0];
                     i++;
                     while(i < parameters.length) {
-                        user = parameters[i] + " ";
+                        user = parameters[i];
                         i++;
                     }
                 }
