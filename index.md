@@ -47,19 +47,23 @@ class ChatServer {
 ![Image0](screenshot0.png)
 The methods in my code that are called are handleRequest, getPath, equals, getQuery, split and format.
 The relevant argument for handleRequest is a url. The rest need a string for an argument.
-The values of message and user did not change because there has only been one user and message added. 
+The relevant fields of the Handler class are message and user. The values are the username and the message created by that user.
+The values of message and user change just once and that is when a new user adds a message.
 
 ![Image1](screenshot1.png)
 The methods in my code that are called are handleRequest, getPath, equals, getQuery, split and format.
 The relevant argument for handleRequest is a url. The rest need a string for an argument.
-The values of message and user get changed each time /add-message is in the url and the server is visited. 
-The value of messages does not change and it keeps track of all new messages.
+The relevant fields of the Handler class are message and user. The values are the username and the message created by that user.
+The values of message and user get changed each time /add-message is in the url and the server is visited.  
 
 ## Part 2
+
+
+The image below shows the absolute path /Users/alex/.ssh to my *private* key.
 ![Image2](screenshot2.png)
-
+The image below shows the absolute path /home/linux/ieng6/oce/3p/a2velasco/.ssh to my *public* key
 ![Image3](screenshot3.png)
-
+Terminal interaction logging in with not being asked for a password:
 ![Image4](screenshot4.png)
 
 ## Part 3
